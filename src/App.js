@@ -14,7 +14,8 @@ function Cube(props){
     <animated.mesh ref={mesh}
       onPointerOver={(event)=> setHover(true)}
       onPointerOut={(event)=>setHover(false)}
-      onClick={(event)=> setActive(!active)}
+      // onClick={(event)=> setActive(!active)}
+      
       scale={ scale }
       {...props}
       >
